@@ -1,0 +1,92 @@
+{
+  "name": "age-of-empires-units",
+  "version": "0.1.0",
+  "description": "A react app listing Age of Empires units",
+  "private": false,
+  "author": {
+    "name": "Kağan Buzcu",
+    "github": "https://github.com/kaganbuzcu"
+  },
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "@types/jest": "^24.0.0",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.0",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-router-dom": "^5.1.6",
+    "bootstrap": "^4.5.3",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.14.0",
+    "lodash": "^4.17.20",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.3.0",
+    "react-cool-img": "^1.2.4",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3",
+    "react-topbar-progress-indicator": "^4.1.0",
+    "redux": "^4.0.4",
+    "redux-mock-store": "^1.5.3",
+    "redux-saga": "^1.0.5",
+    "redux-saga-test-plan": "^4.0.0-beta.4",
+    "typesafe-actions": "^4.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx src --color",
+    "format": "prettier --write 'src/**/*.{ts,tsx,scss,css,json}'",
+    "isready": "npm run format && npm run lint && npm run build"
+  },
+  "devDependencies": {
+    "@types/enzyme": "^3.10.3",
+    "@types/enzyme-adapter-react-16": "^1.0.5",
+    "@types/lodash": "^4.14.162",
+    "@types/react-lazyload": "^3.0.0",
+    "@types/react-redux": "^7.1.1",
+    "@types/redux-form": "^8.3.0",
+    "@types/redux-mock-store": "^1.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/parser": "^4.0.1",
+    "babel-eslint": "10.1.0",
+    "eslint-config-airbnb": "18.2.0",
+    "eslint-config-airbnb-typescript": "11.0.0",
+    "eslint-config-prettier": "6.12.0",
+    "eslint-config-react-app": "5.2.1",
+    "eslint-import-resolver-typescript": "2.3.0",
+    "eslint-loader": "4.0.2",
+    "eslint-plugin-flowtype": "5.2.0",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-jsx-a11y": "6.3.1",
+    "eslint-plugin-prettier": "3.1.4",
+    "eslint-plugin-react": "7.21.4",
+    "eslint-plugin-react-hooks": "4.1.2",
+    "gulp-image-resize": "^0.13.1",
+    "gulp-imagemin": "^7.1.0",
+    "prettier": "2.1.2",
+    "prettier-eslint": "11.0.0",
+    "prettier-eslint-cli": "5.0.0",
+    "typescript": "^4.0.3"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,66 @@
+
+[
+  {
+    "id": 21,
+    "name": "Petard",
+    "description": "Demolition infantry unit armed with explosives. Bonuses add up - for example against walls and gates: +500 buildings +900 walls = +1400 bonus attack",
+    "expansion": "The Conquerors",
+    "age": "Castle",
+    "cost": {
+      "Food": 80,
+      "Gold": 20
+    },
+    "build_time": 25,
+    "movement_rate": 0.8,
+    "line_of_sight": 4,
+    "hit_points": 50,
+    "attack": 25,
+    "armor": "0/2",
+    "attack_bonus": [
+      "+500 buildings",
+      "+100 castle",
+      "+60 siege",
+      "+900 walls & gates"
+    ],
+    "blast_radius": 0.5
+  },
+  {
+    "id": 22,
+    "name": "Trebuchet",
+    "description": "Powerful siege weapon used to destroy buildings and walls from long distance. Cannot fire on close units. Must be packed to move and unpacked to attack. Can cut paths through forests. Unpack time: 0:11",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "cost": {
+      "Wood": 200,
+      "Gold": 200
+    },
+    "build_time": 50,
+    "reload_time": 10,
+    "attack_delay": 0.6,
+    "line_of_sight": 18,
+    "hit_points": 150,
+    "range": "4-16",
+    "attack": 200
+  },
+  {
+    "id": 23,
+    "name": "Trebuchet (packed)",
+    "description": "Powerful siege weapon used to destroy buildings and walls from long distance. Cannot fire on close units. Must be packed to move and unpacked to attack. Can cut paths through forests. Unpack time: 0:11",
+    "expansion": "Age of Kings",
+    "age": "Imperial",
+    "cost": {
+      "Wood": 200,
+      "Gold": 200
+    },
+    "build_time": 50,
+    "movement_rate": 0.8,
+    "line_of_sight": 18,
+    "hit_points": 150,
+    "armor": "2/8",
+    "attack_bonus": [
+      "+250 buildings"
+    ],
+    "accuracy": "15% (80% if walls/towers/buildings with target radius 1)"
+  }
+]
+

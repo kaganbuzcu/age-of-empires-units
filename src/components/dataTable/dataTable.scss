@@ -1,0 +1,9 @@
+.table-wrapper {
+  max-height: 50vh;
+  overflow: auto;
+  tbody {
+    tr {
+      cursor: pointer;
+    }
+  }
+}
